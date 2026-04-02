@@ -2,13 +2,34 @@
   "name": "create-spfx-app",
   "version": "1.0.0",
   "description": "CLI para criar projetos SPFx padronizados",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando-ctdev/create-spfx-appcli.git"
+  },
+  "homepage": "https://github.com/Fernando-ctdev/create-spfx-appcli#readme",
+  "bugs": {
+    "url": "https://github.com/Fernando-ctdev/create-spfx-appcli/issues"
+  },
   "bin": {
     "create-spfx-app": "./index.js"
   },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "type": "commonjs",
-  "keywords": ["spfx", "scaffold", "template"],
+  "keywords": [
+    "spfx",
+    "scaffold",
+    "template",
+    "create"
+  ],
   "author": "Maicon Fernando Cabral",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "kleur": "^4.1.5",
     "prompts": "^2.4.2"
