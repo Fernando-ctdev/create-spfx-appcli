@@ -11,7 +11,7 @@
     "url": "https://github.com/Fernando-ctdev/create-spfx-appcli/issues"
   },
   "bin": {
-    "create-spfx-app": "./index.js"
+    "create-spfx-app": "index.js"
   },
   "files": [
     "index.js",
